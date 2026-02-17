@@ -79,11 +79,6 @@ export default function Navbar() {
                 </span>
               </Link>
             ))}
-            <Link href="/contact">
-              <Button size="sm" className="bg-primary hover:bg-primary/90 text-white rounded-none px-6 uppercase tracking-widest text-xs h-10">
-                Get a Quote
-              </Button>
-            </Link>
           </div>
 
           {/* Mobile Menu Button */}

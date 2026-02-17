@@ -151,12 +151,17 @@ const AboutPreview = () => (
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          {/* founder portrait interior designer */}
-          <img 
-            src="https://pixabay.com/get/g38f45c8f7233194941087672be5558fa582d253d3a670adbc0605bfe94d8980e50dc52014f56efb170aa00b0dce5755952afd17bd050fca9294977b36a01a58c_1280.jpg" 
-            alt="Interior Designer working" 
-            className="w-full h-[500px] object-cover filter grayscale hover:grayscale-0 transition-all duration-700"
-          />
+          {/* founder portrait interior designer Rajarajan P */}
+          <div className="w-full h-[500px] bg-muted flex items-center justify-center relative group overflow-hidden">
+            <img 
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop" 
+              alt="Rajarajan P - Founder" 
+              className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-700 opacity-80"
+            />
+            <div className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-transparent transition-all duration-500">
+              <span className="text-white/50 text-sm font-display tracking-widest uppercase">Founder Portrait</span>
+            </div>
+          </div>
         </motion.div>
         
         <motion.div

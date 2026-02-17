@@ -32,12 +32,17 @@ export default function About() {
             <div className="relative">
               <div className="absolute -top-4 -left-4 w-24 h-24 border-t-2 border-l-2 border-primary" />
               <div className="absolute -bottom-4 -right-4 w-24 h-24 border-b-2 border-r-2 border-primary" />
-              {/* man in suit professional portrait */}
-              <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2574&auto=format&fit=crop" 
-                alt="Rajarajan P" 
-                className="w-full aspect-[4/5] object-cover grayscale"
-              />
+              {/* Rajarajan P - Founder Portrait Placeholder */}
+              <div className="w-full aspect-[4/5] bg-muted flex items-center justify-center relative group overflow-hidden">
+                <img 
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop" 
+                  alt="Rajarajan P" 
+                  className="w-full h-full object-cover grayscale opacity-80 group-hover:opacity-100 transition-opacity duration-500"
+                />
+                <div className="absolute inset-0 flex items-center justify-center bg-black/10">
+                  <span className="text-white/40 text-xs font-display tracking-widest uppercase">Founder Portrait</span>
+                </div>
+              </div>
             </div>
             
             <div>
